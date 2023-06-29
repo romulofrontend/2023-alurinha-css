@@ -121,7 +121,7 @@
 
   .videoSobre-video{
     flex-grow: 1;
-    flex-shrink: 2;
+    flex-shrink: 3;
     margin-right: 3%;
   }
 
@@ -131,9 +131,23 @@
     height: unset;
   }
 
+  .videoSobre-sobre-title{
+    font-size: 24px;
+  }
+
   .videoSobre-sobre-list{
     flex-grow: 1;
     height: unset;
+  }
+
+  .videoSobre-sobre-item{
+    font-size: 16px;
+  }
+
+  .videoSobre-button{
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
   }
 
   .rodapePrincipal-navMap{
@@ -143,11 +157,16 @@
 
   .rodapePrincipal-navMap-list{
     flex-flow: column wrap;
-    height: 237px;
+    height: 230px;
   }
 
   .navmap-list-title {
     font-size: 1em;
+  }
+
+  .rodapePrincipal-navMap-link {
+    font-size: .85em;
+    letter-spacing: .5px;;
   }
 
   .rodapePrincipal-patrocinadores .container{
@@ -157,6 +176,17 @@
 
   .rodapePrincipal-patrocinadores-list{
     flex-grow: .5;
+  }
+
+  .rodapePrincipal-contatoForm-legend{
+    font-size: .8em;
+    font-weight: bold;
+  }
+
+   .rodapePrincipal-contatoForm-submit{
+    font-size: .65em;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
 }
