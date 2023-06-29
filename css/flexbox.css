@@ -123,4 +123,18 @@
     flex-grow: 1;
     height: unset;
   }
+
+  .rodapePrincipal-navMap{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .rodapePrincipal-navMap-list{
+    flex-flow: column wrap;
+    height: 237px;
+  }
+
+  .navmap-list-title {
+    font-size: 1em;
+  }
 }
