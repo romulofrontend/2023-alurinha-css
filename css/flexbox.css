@@ -216,5 +216,27 @@
     margin-left: 0;
   }
 
+  .videoSobre-video {
+    margin-right: 1%;
+  }
+
+  .videoSobre-sobre{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .videoSobre-sobre-title{
+    width: 150px;
+    line-height: 150%;
+  }
+
+  .videoSobre-sobre-list{
+    flex-grow: 0;
+  }
+
+  .videoSobre-button{
+    width: 100%;
+  }
+
 
 }
