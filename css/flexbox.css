@@ -84,4 +84,22 @@
   .cabecalhoPrincipal-nav{
     flex-flow: row nowrap;
   }
+
+  .conteudoPrincipal-cursos{
+    flex-flow: row wrap;
+  }
+
+  .conteudoPrincipal-cursos-link{
+    width: 31.33%;
+    margin: 1%;
+    flex-grow: 1;
+  }
+
+  .conteudoPrincipal-cursos-link:nth-child(3n){
+    margin-right: 0;
+  }
+
+  .conteudoPrincipal-cursos-link:nth-child(3n+1){
+    margin-left: 0;
+  }
 }
