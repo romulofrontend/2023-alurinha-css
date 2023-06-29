@@ -15,6 +15,25 @@
   width: 100%
 }
 
+.videoSobre .container{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.videoSobre-sobre{
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  justify-content: flex-end;
+  height: 350px;
+}
+
+.videoSobre-sobre-list{
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200px;
+}
+
 .rodapePrincipal-navMap-list{
   display: flex;
   flex-flow: column nowrap;
