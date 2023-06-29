@@ -75,6 +75,10 @@
 
 
 @media screen and (min-width: 769px){
+  .subtitulo{
+    font-size: 28px;
+  }
+
   .cabecalhoPrincipal .container{
     flex-flow: row nowrap;
     align-items: center;
@@ -83,6 +87,14 @@
 
   .cabecalhoPrincipal-nav{
     flex-flow: row nowrap;
+  }
+
+  .cabecalhoPrincipal-nav-link{
+    font-size: 14px;
+  }
+
+  .cabecalhoPrincipal-nav-link-app{
+    order: -1;
   }
 
   .conteudoPrincipal-cursos{
@@ -137,4 +149,14 @@
   .navmap-list-title {
     font-size: 1em;
   }
+
+  .rodapePrincipal-patrocinadores .container{
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .rodapePrincipal-patrocinadores-list{
+    flex-grow: .5;
+  }
+
 }
