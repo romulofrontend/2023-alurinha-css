@@ -55,6 +55,7 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-around;
+  width: 80%;
 }
 
 .rodapePrincipal-patrocinadores-list li{
@@ -175,7 +176,7 @@
   }
 
   .rodapePrincipal-patrocinadores-list{
-    flex-grow: .5;
+    width: 50%;
   }
 
   .rodapePrincipal-contatoForm-legend{
@@ -244,6 +245,6 @@
   }
 
   .rodapePrincipal-patrocinadores-list li{
-    flex-grow: 0;
+    width: auto;
   }
 }
