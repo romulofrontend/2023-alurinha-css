@@ -14,3 +14,9 @@
 .conteudoPrincipal-cursos-link{
   width: 100%
 }
+
+.rodapePrincipal-navMap-list{
+  display: flex;
+  flex-flow: column nowrap;  
+}
+
