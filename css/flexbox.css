@@ -102,4 +102,25 @@
   .conteudoPrincipal-cursos-link:nth-child(3n+1){
     margin-left: 0;
   }
+
+  .videoSobre .container{
+    flex-flow: row nowrap;
+  }
+
+  .videoSobre-video{
+    flex-grow: 1;
+    flex-shrink: 2;
+    margin-right: 3%;
+  }
+
+  .videoSobre-sobre{
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: unset;
+  }
+
+  .videoSobre-sobre-list{
+    flex-grow: 1;
+    height: unset;
+  }
 }
