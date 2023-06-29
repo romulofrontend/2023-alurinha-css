@@ -238,5 +238,12 @@
     width: 100%;
   }
 
+  .rodapePrincipal-patrocinadores-list{
+    flex-grow: unset;
+    width: 65%;
+  }
 
+  .rodapePrincipal-patrocinadores-list li{
+    flex-grow: 0;
+  }
 }
